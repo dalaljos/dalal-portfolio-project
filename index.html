@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Joseph Dalal's student portfolio, featuring web design coursework and projects.">
+    <link rel="stylesheet" href="web/css/global.css">
     <title>Joe Dalal - Homepage</title>
 </head>
 <body>
     <header>
-        <nav class="nav" id="intro">
-            <div class="nav navbar">
-                <div class="nav navbar links">
-                    <li><a href="index.html">Home</a></li>
-                </div>
+        <nav id="intro">
+            <div class="logo">
+                <img alt="Joe Dalal logo" src="public/assets/branding/logo.png" />
+            </div>
+            <div class="nav links">
+                <span onClick="location.href='index.html'">Home</span>
+                <span onClick="location.href='#projects'">Projects</span>
             </div>
         </nav>
-
-        <h1>Welcome to Joe Dalal's Homepage</h1>
     </header>
 
-    <main>
+            
+    <main>  
+        <h1>Welcome to Joe Dalal's Homepage</h1>
         <section>
             <p>Hello! I'm Joe Dalal.</p>
-            <img src="https://media.licdn.com/dms/image/v2/D5603AQGx5JPqGQm-_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701461171084?e=2147483647&v=beta&t=WghY-VVhK-2vonk13l8CIzff0tDoxIor9xdlxPy_VSw" />
+            <img alt="Joe Dalal" src="https://media.licdn.com/dms/image/v2/D5603AQGx5JPqGQm-_g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1701461171084?e=2147483647&v=beta&t=WghY-VVhK-2vonk13l8CIzff0tDoxIor9xdlxPy_VSw" />
             <div class="about">
-                <h1>About Me</h1>
+                <h2>About Me</h2>
                 <p>I'm an entrepreneur and student pursuing a degree in Information Science and Technologies at Michigan State University. Since <time datetime="2022-08">August 2022</time>, I have served as the CEO and founder of my own company. I use analytical thinking and data-based strategies to develop investment solutions for my clients while building trust and long-term relationships.</p>
                 <p>I also recently founded a private firm focused on stock trading and financial strategy. I oversee trade execution, market analysis, and the development of proprietary strategies based on intraday liquidity, volume, and macroeconomic trends. This work reflects my interest in precision, risk management, and finding new ways to understand the markets.</p>
                 <p>Outside of business, I serve as Vice President and Founder of Spartans for Duggan. I help lead campaign strategy, manage a team of interns, and create youth-focused political content supporting Mike Duggan's run for governor. This role gives me an opportunity to connect leadership and communication with my interest in social impact.</p>
@@ -40,23 +43,22 @@
         <section aria-labelledby="project-heading">
             <h2>Projects</h2>
             <p>Here are some of my recent projects:</p>
-            <ul>
                 <article>
-                    <p><a href="https://joedalal.netlify.app">Project 1</a></p>
+                    <ul><li><a href="https://joedalal.netlify.app">Project 1</a></li></ul>
                 </article>
-            </ul>
+
         </section>
 
-        <section aria-labelledby="business-heading">
+        <section aria-labelledby="business-heading" id="projects">
             <h2>Current Businesses</h2>
             <p>As an entrepreneur and student, I am currently working on developing several of my companies.</p>
-            <ul>
                 <article>
-                    <p><a href="https://westbrookfund.com">Westbrook & Co</a></p>
-                    <p>Westbrook & Co currently is a friends and family investment vehicle. In the future, I hope to turn it into a wealth management firm, however, that's not in the cards at this current moment. I've been in the industry since 15 years old. After reflecting on wanting to start my own investment firm, a peer of mine boosted my confidence and encouraged me to pursue this goal during my freshman year of college.</p>
-                    <p>Westbrook & Co is owned and operated by Westbrook Group which is a holdings entity that owns several assets, including a real estate company, a bioscience and research supplies company, and hopefully--in the future-- a healthcare company that supplies medical devices and equipment. </p>
+                    <ul><li>
+                        <p><a href="https://westbrookfund.com">Westbrook & Co</a></p>
+                        <p>Westbrook & Co currently is a friends and family investment vehicle. In the future, I hope to turn it into a wealth management firm, however, that's not in the cards at this current moment. I've been in the industry since 15 years old. After reflecting on wanting to start my own investment firm, a peer of mine boosted my confidence and encouraged me to pursue this goal during my freshman year of college.</p>
+                        <p>Westbrook & Co is owned and operated by Westbrook Group which is a holdings entity that owns several assets, including a real estate company, a bioscience and research supplies company, and hopefully--in the future-- a healthcare company that supplies medical devices and equipment. </p>
+                    </li></ul>
                 </article>
-            </ul>
         </section>
     </main> 
 

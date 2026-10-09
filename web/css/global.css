@@ -1,0 +1,45 @@
+body {
+    background-color: #23201f;
+    color: white;
+    margin: 0;
+    font-family: 'Monospace', sans-serif;
+}
+
+main {
+    padding: 5%;
+}
+
+footer {
+    padding: 5%;
+    background-color: #131211;
+}
+
+nav {
+    background-color: #1a1817;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    height: 56px;
+    width: auto;
+}
+
+.nav.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+.nav.links span:hover {
+    color: #56504e;
+}
+
+.nav.links span {
+    cursor: pointer;
+}
