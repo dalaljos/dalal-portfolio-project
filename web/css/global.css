@@ -29,6 +29,13 @@ nav {
     width: auto;
 }
 
+.profile img {
+    display: block;
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+}
+
 .nav.links {
     display: flex;
     justify-content: space-between;

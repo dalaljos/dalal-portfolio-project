@@ -11,6 +11,8 @@
 <hr/>
 - Added a proper footer and heading with stylistic changes showing such. Alongside that, there is now organization within the header navbar with a logo and hyperlink functionality with the buttons right aligned. 
 - Changed the font style to become a monospace sans to make it easier on the eyes. 
+- Added mobile optimization to make sure everything looks appealing on the phone.
+- Rounded off using border and border radius on my profile image.
 <p>10/8/2026</p>
 <br/>
 
