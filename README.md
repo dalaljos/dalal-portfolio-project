@@ -15,4 +15,15 @@
 - Rounded off using border and border radius on my profile image.
 <p>10/8/2026</p>
 <br/>
+<h1>CSS Responsive Design</h1>
+<hr/>
+Added:
+- Used CSS grid to organize my About section into two columns with my PFP on the left and content on the right
+- Used a flex display to organize my nav bar and space the logo to the left with the navigation links on the right
+- Added responsive media query to change the layout based on the screen size.
+- Created a grid layout for my projects section to display them inline.
+- Used Chrome Devtools to inspect the layout and make sure everything alignes and made adjustments on errors.
 
+AI Disclosure: I used ChatGPT to assist with CSS layout suggestions, responsive design, and troubleshooting. I reviewed and implemented the suggested changes myself.
+<p>10/15/2026</p>
+<br/>
