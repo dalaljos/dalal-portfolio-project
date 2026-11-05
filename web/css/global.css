@@ -1,23 +1,30 @@
+
+/* Background Colors
+background-color: #121110;
+background-color: #1A1817;
+background-color: #23201F;
+
+/* Accent Colors
+color: #8A6247;
+color: #C69A78; */
+
+/* Text Colors 
+color: #F4F1EC;
+color: #BFB7AF;
+color: #6E6863; */
+
+
 body {
-    background-color: #23201f;
+    background-color: #23201F;
     color: white;
     margin: 0;
     font-family: 'Monospace', sans-serif;
 }
 
-main {
-    padding: 5%;
-    max-width: 1100px;
-    margin:auto;
-}
 
-footer {
-    padding: 5%;
-    background-color: #131211;
-}
-
+/* NAVBAR */
 nav {
-    background-color: #1a1817;
+    background-color: #1A1817;
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -29,14 +36,6 @@ nav {
     display: block;
     height: 56px;
     width: auto;
-}
-
-.profile img {
-    display: block;
-    height: 250px;
-    width: auto;
-    max-width: 100%;
-    border-radius: 5%;
 }
 
 .nav.links {
@@ -52,6 +51,55 @@ nav {
 
 .nav.links span {
     cursor: pointer;
+}
+
+
+
+/* FOOTER */
+footer {
+    padding: 5%;
+    background-color: #131211;
+}
+
+
+
+/* TITLE CONTENT */
+.hometitle {
+    background-image: linear-gradient(
+        90deg,
+        rgba(35, 32, 31, 0.9),
+        rgba(35, 32, 31, 0.4)
+    ), url("../../public/assets/homeimage.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 5%;
+    border-bottom: 1px solid #393532;
+}
+
+.homecontent {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.homecontent p {
+    max-width: 600px;
+}
+
+
+/* MAIN CONTENT */
+main {
+    padding: 0 5% 5%;
+    max-width: 1100px;
+    margin:auto;
+}
+
+
+.profile img {
+    display: block;
+    height: 350px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 5%;
 }
 
 .projectsgrid {
@@ -80,8 +128,29 @@ nav {
     padding: 50px;
 }
 
+.about p {
+    color: #BFB7AF;
+}
+
+.about h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #C69A78;
+}
+.about h1 hr {
+    width: 32px;
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #56504e;
+    border-color: #8A6247;
+}
+
 .about h2 {
     margin-top: 0;
+    font-size: 30px;
+    
 }
 .profile {
     align-self: center;
@@ -91,8 +160,11 @@ nav {
     font-size: 15px;
 }
 
+
+/* MOBILE OPTIMIZATION */
+
 @media (min-width: 768px) {
     .aboutgrid {
-        grid-template-columns: 250px 1fr;
+        grid-template-columns: 350px 1fr;
     }
 }

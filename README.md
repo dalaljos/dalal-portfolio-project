@@ -27,3 +27,12 @@ Added:
 AI Disclosure: I used ChatGPT to assist with CSS layout suggestions, responsive design, and troubleshooting. I reviewed and implemented the suggested changes myself.
 <p>10/15/2026</p>
 <br/>
+<h1>Accessibility Lab</h1>
+<hr/>
+Added:
+- Used PageSpeed Insights to audit my portfolio website and identify potential accessibility issues.
+- Identified issues with HTML labels and navigation elements that could affect accessibility.
+- Worked on improving HTML structure so that sections are properly labeled and easier for accessibility tools to recognize.
+- Reviewed keyboard navigation to make sure users can move through the website without relying on a mouse.
+<p>11/05/2026</p>
+<br/>
