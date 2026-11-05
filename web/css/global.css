@@ -20,6 +20,10 @@ body {
     font-family: 'Monospace', sans-serif;
 }
 
+a, a:visited {
+    color: white;
+}
+
 main {
     padding: 5%;
     max-width: 1100px;
