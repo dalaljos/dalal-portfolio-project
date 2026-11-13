@@ -53,7 +53,7 @@ a, a:visited, .nav.links {
 .themeswitch {
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
+    left: 1rem;
     z-index: 10;
     display: flex;
     align-items: center;

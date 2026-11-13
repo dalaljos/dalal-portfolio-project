@@ -46,5 +46,8 @@ Added:
 - Added Anime.js to animate my project cards one at a time as they scroll into view.
 - Added support for reduced motion so visitors who prefer less animation can use both features without movement.
 
+Update:
+Switched the button to the left because of the Netlify logo.
+
 AI Disclosure: I used ChatGPT to help build the color palettes, help with writing the theme switcher. ChatGPT also provided a file showing the exact lines that need fixing or adding to my HTML.
 <p>11/12/2026</p>
