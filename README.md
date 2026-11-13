@@ -36,3 +36,15 @@ Added:
 - Reviewed keyboard navigation to make sure users can move through the website without relying on a mouse.
 <p>11/05/2026</p>
 <br/>
+<h1>Javascript Lab</h1>
+<hr/>
+Added:
+- Created light and dark color palettes using CSS variables for backgrounds, headings, text, links, and buttons.
+- Used my existing charcoal colors for dark mode and added a light mode with a cream background and brown accents.
+- Added an animated switch in the bottom-right corner so visitors can change the theme with a mouse or keyboard.
+- Used a separate JavaScript file to switch themes and save the visitor’s choice when they refresh the page.
+- Added Anime.js to animate my project cards one at a time as they scroll into view.
+- Added support for reduced motion so visitors who prefer less animation can use both features without movement.
+
+AI Disclosure: I used ChatGPT to help build the color palettes, help with writing the theme switcher. ChatGPT also provided a file showing the exact lines that need fixing or adding to my HTML.
+<p>11/12/2026</p>
